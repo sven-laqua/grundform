@@ -1,0 +1,6 @@
+# Consumed cross-origin by nothing in production (apps vendor or npm-install);
+# still, allow any origin to read tokens for quick experiments.
+/dist/*
+  Access-Control-Allow-Origin: *
+/*.md
+  Content-Type: text/markdown; charset=utf-8

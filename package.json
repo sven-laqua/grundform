@@ -1,0 +1,23 @@
+{
+  "name": "grundform",
+  "version": "0.1.0",
+  "description": "Bauhaus-derived design tokens and guide for mobile apps, with light and dark themes.",
+  "license": "MIT",
+  "author": "Sven Laqua",
+  "repository": "github:sven-laqua/grundform",
+  "type": "module",
+  "files": ["dist", "tokens", "DESIGN.md"],
+  "exports": {
+    "./tokens.css": "./dist/tokens.css",
+    "./theme.css": "./dist/theme.css",
+    "./preset": "./dist/grundform.preset.cjs",
+    "./echarts-theme.light.json": "./dist/echarts-theme.light.json",
+    "./echarts-theme.dark.json": "./dist/echarts-theme.dark.json",
+    "./tokens.flat.json": "./dist/tokens.flat.json",
+    "./tokens.json": "./tokens/tokens.json"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "site": "node scripts/build.mjs && node scripts/site.mjs"
+  }
+}
