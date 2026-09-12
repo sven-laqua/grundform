@@ -44,5 +44,7 @@ npm install github:sven-laqua/grundform#v0.1.0
 
 Cloudflare Pages, git-integrated: build command `npm run site`, output directory `_site`. Serves the style guide at `/`, generated files under `/dist/`, and `DESIGN.md` as a plain URL.
 
+`docs/index.html` loads `../dist/tokens.css`, so it also renders straight from a checkout; the assembler rewrites that to `dist/` for the site. Don't point GitHub Pages at `docs/` — `dist/` isn't beside it there.
+
 ## Editing
 Change `tokens/tokens.json`, run `node scripts/build.mjs`, commit both. Never hand-edit `dist/`. If you change a colour, update the theme-role table in `DESIGN.md` — the guide is the contract, the tokens are the implementation.
