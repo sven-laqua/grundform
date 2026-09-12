@@ -2,6 +2,8 @@
 
 Bauhaus-derived design tokens and guide for mobile apps, with light and dark themes.
 
+**Site:** https://grundform.pages.dev — the living style guide, with `dist/` and `DESIGN.md` served alongside.
+
 - **Guide:** `DESIGN.md` — the rules. Point Claude Code / any agent at this file (or reference it from your app's `CLAUDE.md`).
 - **Source of truth:** `tokens/tokens.json` — W3C Design Tokens (DTCG) format.
 - **Generated outputs:** `dist/` — run `node scripts/build.mjs` after editing tokens. No dependencies.
@@ -10,7 +12,7 @@ Bauhaus-derived design tokens and guide for mobile apps, with light and dark the
   - `grundform.preset.cjs` — Tailwind v3 preset.
   - `echarts-theme.light.json`, `echarts-theme.dark.json` — register with `echarts.registerTheme('grundform', theme)`.
   - `tokens.flat.json` — flat key/value map for React Native, Flutter, or Swift/Kotlin codegen.
-- **Living style guide:** `docs/index.html` — single-file page with theme switch and component mock-ups. Hosted on Cloudflare Pages (see Hosting).
+- **Living style guide:** `docs/index.html` — single-file page with theme switch and component mock-ups. Live at https://grundform.pages.dev (see Hosting).
 
 ## Use in an app
 

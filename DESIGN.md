@@ -2,7 +2,7 @@
 
 A visual identity for mobile apps built from three shapes, three hues, one geometric typeface and a black rule. Derived from Bauhaus exhibition posters (1919–1923), Kandinsky's form–colour correspondence, and the black-grid structure of De Stijl.
 
-Tokens live in `tokens/tokens.json`. Everything in this document is a rule for using them. If a rule and a token disagree, the token file is wrong — fix it and rebuild.
+Tokens live in `tokens/tokens.json`; the rendered guide is at https://grundform.pages.dev. Everything in this document is a rule for using them. If a rule and a token disagree, the token file is wrong — fix it and rebuild.
 
 ## Principles
 
